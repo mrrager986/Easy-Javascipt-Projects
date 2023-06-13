@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GOER - Landing Page</title>
+    <style>
+      /* Set the background color to #282828 and add the "goer" text */
+      body {
+        background-color: #282828;
+        font-size: 9px;
+        font-family: monospace;
+        line-height: 0.9em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      body::before {
+        content: "goer";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
+        opacity: 0.1;
+      }
+      /* Set the styles for the navigation bar */
+      nav {
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      nav a:hover {
+        background-color: black;
+        color: white;
+      }
+      /* Set the styles for the main content */
+      main {
+        margin: 50px auto;
+        max-width: 800px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        color: aliceblue;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+      }
+      /* Set the styles for the category links */
+      .category-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+      }
+      .category-links a {
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 120px;
+        text-align: center;
+      }
+      .category-links a:hover {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#photo">Photo</a>
+      <a href="#concerts">Concerts</a>
+      <a href="#socials">Socials</a>
+      <a href="#music">Music</a>
+      <a href="#merch">Merch</a>
+    </nav>
+    <main>
+      <h1>GOER</h1>
+      <p>Official website of GOER, a metal band from Slovakia.</p>
+
+    </main>
+  </body>
+</html>
+``
